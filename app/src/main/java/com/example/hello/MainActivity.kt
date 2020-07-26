@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     btnLogin.setOnClickListener {
-        var userName = itUsernme.text.toString()
-        var password=itpassword.text.toString()
+        var userName = etUsername.text.toString()
+        var password=etpssword.text.toString()
         Toast.makeText(baseContext,userName,Toast.LENGTH_LONG).show()
 
 

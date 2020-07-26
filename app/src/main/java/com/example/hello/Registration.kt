@@ -11,13 +11,14 @@ class Registration : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
     btnSignup.setOnClickListener {
-        var firstNam =itFirstName.text.toString()
-        var lastName=itLastName.text.toString()
-        val email=itEmail.text.toString()
-        val phonenumber=itPhonenumber.text.toString()
-        val password=itpassword.text.toString()
-        val comfirmPassword=itpassword.text.toString()
+        var firstNam =etFirstName.text.toString()
+        var lastName=etLastName.text.toString()
+        val email=etEmail.text.toString()
+        val phonenumber=etPhonenumber.text.toString()
+        val password=etpassword.text.toString()
+        val comfirmPassword=etComfirmpassword.text.toString()
         Toast.makeText(baseContext,lastName,Toast.LENGTH_LONG)
     }
     }
 }
+
