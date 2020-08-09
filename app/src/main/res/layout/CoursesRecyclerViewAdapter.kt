@@ -19,7 +19,7 @@ class CoursesRecyclerViewAdapter(val CoursesList: List<Coursesactivity>) :
         return CoursesList.size
     }
     override fun onBindViewHolder(holder: NamesViewHolder, position: Int) {
-        holder.rowView.tvCourses.text = CoursesList[position]
+        holder.rowView.tvCourses.text = CoursesList[position].toString()
     }
     class NamesViewHolder(val rowView: View) : RecyclerView.ViewHolder(rowView)
 }
